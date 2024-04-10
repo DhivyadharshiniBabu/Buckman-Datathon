@@ -27,3 +27,14 @@ css_style1 = """
 
 st.write("<h1 style='text-align: center;color: #800080;'>Prediction</h1>", unsafe_allow_html=True)
 
+columns=['Lower Income', 'Upper Income', 'Reason for Investment', 'Role', 'Source of Awareness about Investment', 'Return Earned', 'Upper Percentage', 'Marital Status']
+
+lower_income = st.number_input("Enter Lower Income:")
+upper_income = st.number_input("Enter Upper Income:")
+reason_for_investment = st.text_input("Enter Reason for Investment:")
+role = st.text_input("Enter Role:")
+source_of_awareness = st.text_input("Enter Source of Awareness about Investment:")
+return_earned = st.number_input("Enter Return Earned:")
+upper_percentage = st.number_input("Enter Upper Percentage:")
+marital_status = st.text_input("Enter Marital Status:")
+

@@ -27,7 +27,7 @@ X=dataset.drop('Cluster',axis=1)
 
 with open("C:/DATA SCIENCE/PLACEMENT/Buckman/best_models.pkl", "rb") as model_file:
     models = pickle.load(model_file)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.3, random_state=42)
 
 st.sidebar.title("Select Model")
 
